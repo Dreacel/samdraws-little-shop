@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+
+body{
+    font-family: "Baskervville", serif;
+}
+
 nav {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
+    background: #B58DAA;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 70px;
+}
+
+a{
+    color: #D0C27D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
